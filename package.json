@@ -1,0 +1,34 @@
+{
+  "name": "hubot-silent",
+  "version": "0.1.0",
+  "description": "A silent hubot adapter",
+  "main": "src/silent",
+  "config": {
+    "blanket": {
+      "pattern": "hubot-silent/src",
+      "loader": "./node-loaders/coffee-script"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maruTA-bis5/hubot-silent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maruTA-bis5/hubot-silent/issues"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": {
+    "name": "Takayuki Maruyama",
+    "email": "bis5.wsys@gmail.com",
+    "url": "https://github.com/maruTA-bis5"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "hubot": ">=2.3.0",
+    "coffee-script": "~1.6.3"
+  }
+}
+
